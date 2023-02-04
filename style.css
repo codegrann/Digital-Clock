@@ -12,11 +12,12 @@
     width: 350px;
     height: 350px;
     border-radius: 50%;
+    display: flex;
+    /* justify-content: end; */
+    align-items: center;
 }
 #hourHand{
-    width: 175px;
+    width: 50%;
     height: 5px;
     background-color: black;
-    position: relative;
-    top: 177px;
 }
