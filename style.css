@@ -1,0 +1,13 @@
+#outer{
+    background-color: blue;
+    width: 400px;
+    height: 300px;
+    padding-top: 55px;
+}
+
+#inner{
+    background-color: blanchedalmond;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
