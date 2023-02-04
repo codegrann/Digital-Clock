@@ -2,7 +2,6 @@
     background-color: blue;
     width: 400px;
     height: 400px;
-    /* padding-top: 55px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,5 +12,11 @@
     width: 350px;
     height: 350px;
     border-radius: 50%;
-    /* margin: auto; */
+}
+#hourHand{
+    width: 175px;
+    height: 5px;
+    background-color: black;
+    position: relative;
+    top: 177px;
 }
