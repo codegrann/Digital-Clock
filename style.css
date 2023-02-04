@@ -17,7 +17,28 @@
     align-items: center;
 }
 #hourHand{
+    /* width: 50%; */
+    width: 175px;
+    height: 5px;
+    background-color: rgb(65, 42, 42);
+    position: absolute;
+    /* transition: 5000ms; */
+    transform: rotate(90deg);
+    transform-origin: 175px;
+}
+#minuteHand{
     width: 50%;
     height: 5px;
-    background-color: black;
+    background-color: rgb(24, 237, 21);
+    transition: 5000ms;
+    transform: rotate(450deg);
+    transform-origin: 100%;
+}
+#secHand{
+    width: 50%;
+    height: 5px;
+    background-color: rgb(240, 29, 29);
+    /* transition: 5000ms; */
+    transform: rotate(-80deg);
+    transform-origin: 0;
 }
