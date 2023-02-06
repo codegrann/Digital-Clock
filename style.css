@@ -1,44 +1,64 @@
-#outer{
-    background-color: blue;
-    width: 400px;
-    height: 400px;
-    display: flex;
-    justify-content: center;
+html{
+    text-align: center;
+}
+body{
+    display:flex;
+    flex: 1;
+    min-height: 100vh;
+    /* justify-content: center; */
     align-items: center;
+}
+#outer{
+    /* background-color: blue; */
+    width: 30rem;
+    height: 30rem;
+    border: 2px solid yellow;
+    border-radius: 50%;
+    margin: 50px auto;
+    position:relative;
+    padding: 2rem;
+   
 }
 
 #inner{
-    background-color: blanchedalmond;
-    width: 350px;
-    height: 350px;
+    background-color: rgb(102, 107, 232);
+    position: relative;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
-    display: flex;
+    /* transform: translateY(-3px); */
+
+
+    /* display: flex; */
     /* justify-content: end; */
-    align-items: center;
+    /* align-items: center; */
 }
 #hourHand{
-    /* width: 50%; */
     width: 50%;
     height: 5px;
     background-color: rgb(65, 42, 42);
-    /* position: absolute; */
-    /* top: 50%; */
-    /* transition: 5000ms; */
-    /* transform: rotate(90deg); */
-    /* transform-origin: 175px; */
+    position: absolute;
+    top: 50%;
+    transition: 5000ms;
+    transform-origin: 100%;
+    transform: rotate(100deg);
 }
 #minuteHand{
     width: 50%;
-    height: 5px;
+    height: 4px;
     background-color: rgb(24, 237, 21);
+    position: absolute;
+    top: 50%;
     /* transition: 5000ms; */
     /* transform: rotate(450deg); */
     /* transform-origin: 100%; */
 }
 #secHand{
     width: 50%;
-    height: 5px;
+    height: 3px;
     background-color: rgb(240, 29, 29);
+    position: absolute;
+    top: 50%;
     /* transition: 5000ms; */
     /* transform: rotate(-80deg); */
     /* transform-origin: 0; */
