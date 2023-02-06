@@ -29,19 +29,17 @@ body{
     /* transform: translateY(-3px); */
 
 
-    /* display: flex; */
-    /* justify-content: end; */
-    /* align-items: center; */
+   
 }
 #hourHand{
     width: 50%;
     height: 5px;
-    background-color: rgb(65, 42, 42);
+    background-color: rgb(7, 7, 7);
     position: absolute;
     top: 50%;
     transition: 5000ms;
     transform-origin: 100%;
-    transform: rotate(100deg);
+    transform: rotate(720deg);
 }
 #minuteHand{
     width: 50%;
