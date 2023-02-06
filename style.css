@@ -84,11 +84,13 @@ body{
 }
 
 
-.time{
-    width: 13rem;
+#time{
+    width: 15rem;
     height: 4rem;
     background-color: black;
    position: absolute;
    top: 11%;
-   left: 80%;
+   left: 75%;
+   color: whitesmoke;
+   padding: 0.5rem;
 }
