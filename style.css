@@ -37,9 +37,9 @@ body{
     background-color: rgb(7, 7, 7);
     position: absolute;
     top: 50%;
-    transition: 10000ms;
+    /* transition: 10000ms; */
+    transform: rotate(90deg);
     transform-origin: 100%;
-    transform: rotate(360deg);
 }
 #minuteHand{
     width: 50%;
@@ -47,8 +47,8 @@ body{
     background-color: rgb(24, 237, 21);
     position: absolute;
     top: 50%;
-    transition: 10000ms;
-    transform: rotate(300deg);
+    /* transition: 10000ms; */
+    transform: rotate(90deg);
     transform-origin: 100%;
 }
 #secHand{
@@ -57,7 +57,7 @@ body{
     background-color: rgb(240, 29, 29);
     position: absolute;
     top: 50%;
-    transition: 10000ms;
-    transform: rotate(-360deg);
+    /* transition: 10000ms; */
+    transform: rotate(90deg);
     transform-origin: 100%;
 }
