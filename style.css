@@ -38,9 +38,17 @@ body{
     position: absolute;
     top: 50%;
     /* transition: 10000ms; */
-    transform: rotate(90deg);
+    /* transform: rotate(90deg); */
     transform-origin: 100%;
+    animation: rotate 60s;
 }
+
+@keyframes rotate{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(90deg);}
+}
+
+
 #minuteHand{
     width: 50%;
     height: 4px;
@@ -53,7 +61,7 @@ body{
 }
 #secHand{
     width: 50%;
-    height: 3px;
+    height: 2px;
     background-color: rgb(240, 29, 29);
     position: absolute;
     top: 50%;
