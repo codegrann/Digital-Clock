@@ -40,13 +40,8 @@ body{
     /* transition: 10000ms; */
     transform: rotate(90deg);
     transform-origin: 100%;
-    animation: rotate 60s linear;
+    animation: hour 216000s linear;
     animation-iteration-count: infinite;
-}
-
-@keyframes rotate{
-    from{transform: rotate(90deg);}
-    to{transform: rotate(450deg);}
 }
 
 
@@ -59,6 +54,8 @@ body{
     /* transition: 10000ms; */
     transform: rotate(90deg);
     transform-origin: 100%;
+    animation: minute 3600s linear;
+    animation-iteration-count: infinite;
 }
 #secHand{
     width: 50%;
@@ -69,4 +66,19 @@ body{
     /* transition: 10000ms; */
     transform: rotate(90deg);
     transform-origin: 100%;
+    animation: second 60s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hour{
+    from{transform: rotate(90deg);}
+    to{transform: rotate(450deg);}
+}
+@keyframes minute{
+    from{transform: rotate(90deg);}
+    to{transform: rotate(450deg);}
+}
+@keyframes second{
+    from{transform: rotate(90deg);}
+    to{transform: rotate(450deg);}
 }
