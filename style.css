@@ -38,14 +38,15 @@ body{
     position: absolute;
     top: 50%;
     /* transition: 10000ms; */
-    /* transform: rotate(90deg); */
+    transform: rotate(90deg);
     transform-origin: 100%;
-    animation: rotate 60s;
+    animation: rotate 60s linear;
+    animation-iteration-count: infinite;
 }
 
 @keyframes rotate{
-    0%{transform: rotate(0deg);}
-    100%{transform: rotate(90deg);}
+    from{transform: rotate(90deg);}
+    to{transform: rotate(450deg);}
 }
 
 
