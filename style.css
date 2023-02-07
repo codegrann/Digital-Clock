@@ -59,7 +59,7 @@ body{
 #secHand{ 
     height: 2px;
     background-color: rgb(240, 29, 29);
-    transform: rotate(50deg);
+    /* transform: rotate(50deg); */
     /* animation: second 60s linear; */
     /* animation-iteration-count: infinite; */
 }
