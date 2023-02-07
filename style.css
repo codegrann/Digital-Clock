@@ -38,23 +38,23 @@ body{
     top: 50%;  
     transform: rotate(90deg);
     transform-origin: 100%;
-    transition: all 0.9s;
+    transition: all 0.05s;
     transition-timing-function:  cubic-bezier(.68,-0.55,.27,1.55);
 }
 #hourHand{
     height: 5px;
     background-color: rgb(7, 7, 7);
    
-    animation: hour 216000s linear;
-    animation-iteration-count: infinite;
+    /* animation: hour 216000s linear; */
+    /* animation-iteration-count: infinite; */
 }
 
 
 #minuteHand{
     height: 4px;
     background-color: rgb(24, 237, 21);
-    animation: minute 3600s linear;
-    animation-iteration-count: infinite;
+    /* animation: minute 3600s linear; */
+    /* animation-iteration-count: infinite; */
 }
 #secHand{ 
     height: 2px;
@@ -64,18 +64,18 @@ body{
     /* animation-iteration-count: infinite; */
 }
 
-@keyframes hour{
-    from{transform: rotate(90deg);}
-    to{transform: rotate(450deg);}
-}
-@keyframes minute{
-    from{transform: rotate(90deg);}
-    to{transform: rotate(450deg);}
-}
-@keyframes second{
-    from{transform: rotate(90deg);}
-    to{transform: rotate(450deg);}
-}
+/* @keyframes hour{ */
+    /* from{transform: rotate(90deg);} */
+    /* to{transform: rotate(450deg);} */
+/* } */
+/* @keyframes minute{ */
+    /* from{transform: rotate(90deg);} */
+    /* to{transform: rotate(450deg);} */
+/* } */
+/* @keyframes second{ */
+    /* from{transform: rotate(90deg);} */
+    /* to{transform: rotate(450deg);} */
+/* } */
 
 
 #time{
