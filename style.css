@@ -31,43 +31,37 @@ body{
 
    
 }
-#hourHand{
-    width: 50%;
-    height: 5px;
-    background-color: rgb(7, 7, 7);
+
+.hands{
+    width: 50%; 
     position: absolute;
-    top: 50%;
-    /* transition: 10000ms; */
+    top: 50%;  
     transform: rotate(90deg);
     transform-origin: 100%;
+    transition: all 0.9s;
+    transition-timing-function:  cubic-bezier(.68,-0.55,.27,1.55);
+}
+#hourHand{
+    height: 5px;
+    background-color: rgb(7, 7, 7);
+   
     animation: hour 216000s linear;
     animation-iteration-count: infinite;
 }
 
 
 #minuteHand{
-    width: 50%;
     height: 4px;
     background-color: rgb(24, 237, 21);
-    position: absolute;
-    top: 50%;
-    /* transition: 10000ms; */
-    transform: rotate(90deg);
-    transform-origin: 100%;
     animation: minute 3600s linear;
     animation-iteration-count: infinite;
 }
-#secHand{
-    width: 50%;
+#secHand{ 
     height: 2px;
     background-color: rgb(240, 29, 29);
-    position: absolute;
-    top: 50%;
-    /* transition: 10000ms; */
-    transform: rotate(90deg);
-    transform-origin: 100%;
-    animation: second 60s linear;
-    animation-iteration-count: infinite;
+    transform: rotate(50deg);
+    /* animation: second 60s linear; */
+    /* animation-iteration-count: infinite; */
 }
 
 @keyframes hour{
