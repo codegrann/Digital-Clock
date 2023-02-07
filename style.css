@@ -52,13 +52,13 @@ body{
 
 #minuteHand{
     height: 4px;
-    background-color: rgb(24, 237, 21);
+    background-color: rgb(61, 72, 61);
     /* animation: minute 3600s linear; */
     /* animation-iteration-count: infinite; */
 }
 #secHand{ 
     height: 2px;
-    background-color: rgb(240, 29, 29);
+    background-color: rgb(107, 100, 100);
     /* transform: rotate(50deg); */
     /* animation: second 60s linear; */
     /* animation-iteration-count: infinite; */
