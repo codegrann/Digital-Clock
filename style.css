@@ -47,8 +47,9 @@ body{
     transition-timing-function:  cubic-bezier(.68,-0.55,.27,1.55);
 }
 #hourHand{
-    height: 5px;
+    height: 4.5px;
     background-color: rgb(7, 7, 7);
+    box-shadow: 1.5px 1.5px 10px rgb(234, 218, 218), -1.5px -1.5px 10px rgb(234, 218, 218);
    
     /* animation: hour 216000s linear; */
     /* animation-iteration-count: infinite; */
@@ -58,12 +59,14 @@ body{
 #minuteHand{
     height: 4px;
     background-color: rgb(61, 72, 61);
+    box-shadow: 1px 1px 10px rgb(234, 218, 218), -1px -1px 10px rgb(234, 218, 218);
     /* animation: minute 3600s linear; */
     /* animation-iteration-count: infinite; */
 }
 #secHand{ 
     height: 2px;
     background-color: rgb(107, 100, 100);
+    box-shadow: 0.5px 0.5px 10px rgb(234, 218, 218), -0.5px -0.5px 10px rgb(234, 218, 218);
     /* transform: rotate(50deg); */
     /* animation: second 60s linear; */
     /* animation-iteration-count: infinite; */
