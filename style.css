@@ -2,6 +2,8 @@ html{
     text-align: center;
 }
 body{
+    background: url(GMAIL.jpg);
+    background-attachment: fixed;
     display:flex;
     flex: 1;
     min-height: 100vh;
@@ -12,16 +14,17 @@ body{
     background-color: blue;
     width: 30rem;
     height: 30rem;
-    border: 2px solid yellow;
-    /* border-radius: 50%; */
+    border: 2px solid rgb(17, 34, 46);
+    border-radius: 2%;
     margin: 50px auto;
     position:relative;
-    padding: 2rem;
+    padding: 1rem;
    
 }
 
 #inner{
-    background-color: rgb(208, 209, 227);
+    background-color: rgb(142, 143, 165);
+    /* background: transparent; */
     position: relative;
     width: 100%;
     height: 100%;
