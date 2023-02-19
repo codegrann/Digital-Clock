@@ -102,6 +102,33 @@ body{
    padding-top: 1.5rem;
 }
 
+#social{
+    position: absolute;
+    left: 3vw;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+#social a{
+    font-size: 20pt;
+}
+
+
+@media(max-width:650px){
+    #social{
+        width: 30vw;
+        display: flex;
+        flex-direction: row;
+        left: 35vw;
+        bottom: 0;
+        justify-content: space-around;
+    }
+    #social a{
+        color: white;
+    }
+}
+
+
 @media(max-width:400px){
     #time{
         position: absolute;
@@ -114,5 +141,9 @@ body{
     }
     #outer{
         height: 20rem;
+    }
+    #social a{
+        font-size: 16pt;
+        margin-right: 0.5rem;
     }
 }
