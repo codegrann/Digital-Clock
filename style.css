@@ -102,7 +102,7 @@ body{
    padding-top: 1.5rem;
 }
 
-@media(max-width:350px){
+@media(max-width:400px){
     #time{
         position: absolute;
         top: -3%;
