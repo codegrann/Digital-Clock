@@ -1,6 +1,6 @@
 function display() {
     let watch = document.querySelector("#time");
-    let time = new Date(23, 6, 20, 12,45,30,23);
+    let time = new Date(23, 6, 20, 03,45,30,23);
     let hour = time.getHours();
     let min = time.getMinutes();
     let sec = time.getSeconds();
