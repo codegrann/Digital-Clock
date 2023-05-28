@@ -1,9 +1,5 @@
-
-let watch=document.querySelector("#time");
-
-
-
 function display(){
+    let watch=document.querySelector("#time");
     let time=new Date();
     watch.innerText=`${time.getHours()}: ${time.getMinutes()}:${time.getSeconds()}`;
     // watch.innerText=`${time}`;
