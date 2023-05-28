@@ -1,7 +1,13 @@
 function display(){
     let watch=document.querySelector("#time");
     let time=new Date();
-    watch.innerText=`${time.getHours()}: ${time.getMinutes()}:${time.getSeconds()}`;
+    let hour=time.getHours();
+    let min=time.getMinutes();
+    let sec=time.getSeconds();
+    if(hour<10){
+        hour=`0${hour}`
+    }
+    watch.innerText=`${hour}: ${min}:${sec}`;
     // watch.innerText=`${time}`;
 }
 setInterval(display, 1000);
