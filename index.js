@@ -1,14 +1,15 @@
 function display() {
     let watch = document.querySelector("#time");
-    let time = new Date();
+    let time = new Date(23, 6, 20, 12,45,30,23);
     let hour = time.getHours();
     let min = time.getMinutes();
     let sec = time.getSeconds();
+    let amPm=hour>=12? "pm": "am";
     hour = hour > 12 ? hour = hour - 12 : hour;
     hour = hour < 10 ? hour = `0${hour}` : hour;
     min = min < 10 ? min = `0${min}` : min;
     sec = sec < 10 ? sec = `0${sec}` : sec;
-    watch.innerText = `${hour}: ${min}:${sec}`;
+    watch.innerText = `${hour}: ${min}:${sec} ${amPm}`;
     // watch.innerText=`${time}`;
 }
 setInterval(display, 1000);
