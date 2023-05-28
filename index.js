@@ -4,8 +4,8 @@ function display() {
     let hour = time.getHours();
     let min = time.getMinutes();
     let sec = time.getSeconds();
+    hour = hour > 12 ? hour = hour - 12 : hour;
     hour = hour < 10 ? hour = `0${hour}` : hour;
-    
     min = min < 10 ? min = `0${min}` : min;
     sec = sec < 10 ? sec = `0${sec}` : sec;
     watch.innerText = `${hour}: ${min}:${sec}`;
