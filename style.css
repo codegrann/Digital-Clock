@@ -2,7 +2,7 @@ html{
     text-align: center;
 }
 body{
-    background: url(GMAIL.jpg);
+    background: url(assets/GMAIL.jpg);
     background-attachment: fixed;
     backdrop-filter: blur(3px);
     display:flex;
