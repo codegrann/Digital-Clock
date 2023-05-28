@@ -4,9 +4,7 @@ function display(){
     let hour=time.getHours();
     let min=time.getMinutes();
     let sec=time.getSeconds();
-    if(hour<10){
-        hour=`0${hour}`
-    }
+    hour=hour<10? hour=`0${hour}`: hour;
     watch.innerText=`${hour}: ${min}:${sec}`;
     // watch.innerText=`${time}`;
 }
