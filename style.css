@@ -1,163 +1,155 @@
-html{
-    text-align: center;
+html {
+  text-align: center;
 }
-body{
-    background: url(assets/GMAIL.jpg);
-    background-attachment: fixed;
-    backdrop-filter: blur(3px);
-    display:flex;
-    flex: 1;
-    min-height: 100vh;
-    /* justify-content: center; */
-    align-items: center;
-    /* overflow-y: hidden; */
+body {
+  background: url(assets/GMAIL.jpg);
+  background-attachment: fixed;
+  backdrop-filter: blur(3px);
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  /* justify-content: center; */
+  align-items: center;
+  /* overflow-y: hidden; */
 }
-#outer{
-    background-color: blue;
-    width: 30rem;
-    height: 30rem;
-    border: 2px solid rgb(17, 34, 46);
-    border-radius: 2%;
-    margin: 50px auto;
-    position:relative;
-    padding: 1rem;
-   
-}
-
-#inner{
-    background-color: rgb(142, 143, 165);
-    /* background: transparent; */
-    position: relative;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    /* transform: translateY(-3px); */
-
-
-   
+#outer {
+  background-color: blue;
+  width: 30rem;
+  height: 30rem;
+  border: 2px solid rgb(17, 34, 46);
+  border-radius: 2%;
+  margin: 50px auto;
+  position: relative;
+  padding: 1rem;
 }
 
-.hands{
-    width: 50%; 
-    position: absolute;
-    top: 50%;  
-    transform: rotate(90deg);
-    transform-origin: 100%;
-    transition: all 0.05s;
-    transition-timing-function:  cubic-bezier(.68,-0.55,.27,1.55);
-}
-#hourHand{
-    height: 4.5px;
-    background-color: rgb(7, 7, 7);
-    box-shadow: 1.5px 1.5px 20px rgb(234, 218, 218), -1.5px -1.5px 20px rgb(234, 218, 218);
-   
-    /* animation: hour 216000s linear; */
-    /* animation-iteration-count: infinite; */
+#inner {
+  background-color: rgb(142, 143, 165);
+  /* background: transparent; */
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  /* transform: translateY(-3px); */
 }
 
-
-#minuteHand{
-    height: 4px;
-    background-color: rgb(61, 72, 61);
-    box-shadow: 1px 1px 20px rgb(234, 218, 218), -1px -1px 20px rgb(234, 218, 218);
-    /* animation: minute 3600s linear; */
-    /* animation-iteration-count: infinite; */
+.hands {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  transform: rotate(90deg);
+  transform-origin: 100%;
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
-#secHand{ 
-    height: 2px;
-    background-color: rgb(107, 100, 100);
-    box-shadow: 0.5px 0.5px 15px rgb(234, 218, 218), -0.5px -0.5px 15px rgb(234, 218, 218);
-    /* transform: rotate(50deg); */
-    /* animation: second 60s linear; */
-    /* animation-iteration-count: infinite; */
+#hourHand {
+  height: 4.5px;
+  background-color: rgb(7, 7, 7);
+  box-shadow: 1.5px 1.5px 20px rgb(234, 218, 218),
+    -1.5px -1.5px 20px rgb(234, 218, 218);
+
+  /* animation: hour 216000s linear; */
+  /* animation-iteration-count: infinite; */
+}
+
+#minuteHand {
+  height: 4px;
+  background-color: rgb(61, 72, 61);
+  box-shadow: 1px 1px 20px rgb(234, 218, 218), -1px -1px 20px rgb(234, 218, 218);
+  /* animation: minute 3600s linear; */
+  /* animation-iteration-count: infinite; */
+}
+#secHand {
+  height: 2px;
+  background-color: rgb(107, 100, 100);
+  box-shadow: 0.5px 0.5px 15px rgb(234, 218, 218),
+    -0.5px -0.5px 15px rgb(234, 218, 218);
+  /* transform: rotate(50deg); */
+  /* animation: second 60s linear; */
+  /* animation-iteration-count: infinite; */
 }
 
 /* @keyframes hour{ */
-    /* from{transform: rotate(90deg);} */
-    /* to{transform: rotate(450deg);} */
+/* from{transform: rotate(90deg);} */
+/* to{transform: rotate(450deg);} */
 /* } */
 /* @keyframes minute{ */
-    /* from{transform: rotate(90deg);} */
-    /* to{transform: rotate(450deg);} */
+/* from{transform: rotate(90deg);} */
+/* to{transform: rotate(450deg);} */
 /* } */
 /* @keyframes second{ */
-    /* from{transform: rotate(90deg);} */
-    /* to{transform: rotate(450deg);} */
+/* from{transform: rotate(90deg);} */
+/* to{transform: rotate(450deg);} */
 /* } */
 
-
-#time{
-    width: 10rem;
-    height: 3rem;
-    /* background-color: rgb(0, 4, 255); */
-    border: 2px solid rgb(185, 211, 229);
-    border-radius: 3px;
-   position: absolute;
-   top: 0.3%;
-   left: 100%;
-   color: whitesmoke;
-   font-size: 18pt;
-   font-weight: 600;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   padding-top: 1.5rem;
+#time {
+  width: 10rem;
+  height: 3rem;
+  /* background-color: rgb(0, 4, 255); */
+  border: 2px solid rgb(185, 211, 229);
+  border-radius: 3px;
+  position: absolute;
+  top: 0.3%;
+  left: 100%;
+  color: whitesmoke;
+  font-size: 18pt;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-block: 1.5rem;
 }
 
-#social{
-    position: absolute;
-    left: 3vw;
+#social {
+  position: absolute;
+  left: 3vw;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+}
+#social a {
+  font-size: 20pt;
+}
+
+@media (max-width: 650px) {
+  #social {
+    width: 30vw;
     display: flex;
-    flex-direction: column;
-    /* border: 2px solid red; */
-}
-#social a{
-    font-size: 20pt;
-}
-
-
-@media(max-width:650px){
-    #social{
-        width: 30vw;
-        display: flex;
-        flex-direction: row;
-        left: 35vw;
-        bottom: 0;
-        justify-content: space-around;
-    }
-    #social a{
-        color: white;
-    }
+    flex-direction: row;
+    left: 35vw;
+    bottom: 0;
+    justify-content: space-around;
+  }
+  #social a {
+    color: white;
+  }
 }
 
-
-@media(max-width:500pX){
-    #time{
-        
-         position: absolute;
-         top: -3%;
-         left: 74%;
-         width: 25%;
-         border: none;
-         font-size: 5vw;
-         /* top: 0; */
-        
-    }
+@media (max-width: 500px) {
+  #time {
+    position: absolute;
+    top: -3%;
+    left: 74%;
+    width: 25%;
+    border: none;
+    font-size: 5vw;
+    /* top: 0; */
+  }
 }
 
-@media(max-width:400px){
-    #time{
-        position: absolute;
-        top: -3%;
-        left: 74%;
-        width: 25%;
-        border: none;
-        font-size: 5vw;
-        /* top: 0; */
-    }
-    #outer{
-        height: 20rem;
-    }
-    #social a{
-        font-size: 16pt;
-        margin-right: 0.5rem;
-    }
+@media (max-width: 400px) {
+  #time {
+    position: absolute;
+    top: -3%;
+    left: 74%;
+    width: 25%;
+    border: none;
+    font-size: 5vw;
+    /* top: 0; */
+  }
+  #outer {
+    height: 20rem;
+  }
+  #social a {
+    font-size: 16pt;
+    margin-right: 0.5rem;
+  }
 }
